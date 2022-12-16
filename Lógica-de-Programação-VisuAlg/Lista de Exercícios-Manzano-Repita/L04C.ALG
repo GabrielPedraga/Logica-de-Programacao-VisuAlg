@@ -1,0 +1,27 @@
+Algoritmo "L04C"
+// Disciplina  : [Lógica de Programação com JavaScript]
+// Professor   : Jailson
+
+// Descrição   : Apresentar  todos  os  números  divisíveis  por  4  que  sejam  menores  que  200.
+// Para  verificar  se  o número  é  divisível  por  4,  efetuar  dentro  da  malha  a  verificação  lógica  desta  condição  com  a instrução se,
+// perguntando  se  o  número  é  divisível;  sendo,  mostre-o;  não  sendo,  passe  para  o próximo passo. A variável que controlará o contador deve ser iniciada com o valor 1.
+
+// Autor(a)    : Gabriel Pedraga
+// Data atual  : 15/10/2022
+
+Var
+   // Seção de Declarações das variáveis
+   contadora:inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   contadora<-1
+   repita
+      contadora<-contadora+1
+      se contadora mod 4 = 0 entao
+         escreval(contadora)
+      fimse
+   ate contadora = 200
+
+
+Fimalgoritmo
